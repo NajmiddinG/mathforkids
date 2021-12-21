@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>Elementar hisob-kitob</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="left">
+                <div class="logo"><img src="" alt=""> 4 sinf matematika</div>
+            </div>
+            <div class="right">
+                <div class="item item_active" onclick="reverce('+', this)">Qo'shish</div>
+                <div class="item" onclick="reverce('-', this)">Ayirish</div>
+                <div class="item" onclick="reverce('*', this)">Ko'paytirish</div>
+                <div class="item" onclick="reverce('/', this)">Bo'lish</div>
+            </div>
+        </div>
+    </nav>
+    <div class="container2">
+        <div class="math">
+            <span class="math1">11</span><span class="math2">+</span><span class="math3">12</span><span class="math4">=</span><span class="math5">?</span>
+        </div>
+        <section class="values">
+            <div class="item1" onclick="result(this)"><span class="value1">23</span></div>
+            <div class="item1" onclick="result(this)"><span class="value2">7</span></div>
+            <div class="item1" onclick="result(this)"><span class="value3">1</span></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
